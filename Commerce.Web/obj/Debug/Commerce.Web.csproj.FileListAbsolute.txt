@@ -1,0 +1,7 @@
+C:\Git\commerce\Commerce.Web\bin\Commerce.Web.dll
+C:\Git\commerce\Commerce.Web\bin\Commerce.Web.pdb
+C:\Git\commerce\Commerce.Web\bin\EntityFramework.dll
+C:\Git\commerce\Commerce.Web\bin\EntityFramework.xml
+C:\Git\commerce\Commerce.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Git\commerce\Commerce.Web\obj\Debug\Commerce.Web.dll
+C:\Git\commerce\Commerce.Web\obj\Debug\Commerce.Web.pdb
