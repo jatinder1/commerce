@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
 
-namespace Commerce.Web.Models
+namespace Commerce.BLL.Models
 {
-    public class Order
+    public class User
     {
+
     }
 }
