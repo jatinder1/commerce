@@ -3,24 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Commerce.Web.Models
+namespace Commerce.BLL.Models
 {
     public class Customers
     {
         public int CustomerId { get; set; }
-        public string firstName { get; set; }
+        public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Address1 { get; set; }
         public string Address {get; set;}
-        public string city {get;  set;}
-        public string state {get; set;}
+        public string City {get;  set;}
+        public string State {get; set;}
         public string Postalcode {get; set;}
-        public string country {get ; set;}
-        public string phone {get ; set;}
+        public string Country {get ; set;}
+        public string Phone {get ; set;}
         public string Email {get; set;}
-        public string voicemail {get; set;}
-        public string password {get; set;}
-        public string creditcard {get; set;}
+        public string Voicemail {get; set;}
+        public string Password {get; set;}
+        public string Creditcard {get; set;}
         public int CreditcardTypeId {get; set;}
         public string CardExpMon {get; set;}
         public string CardExpYr {get; set;}

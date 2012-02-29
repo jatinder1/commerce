@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using Commerce.Web.Models;
 using System.Data.Entity;
 
-namespace Commerce.Web.Models
+namespace Commerce.BLL.Models
 {
     public class Supplier
     {

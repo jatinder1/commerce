@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
 
-namespace Commerce.Web.Models
+namespace Commerce.BLL.Models
 {
-    public class OrderList
+    class OrderDetail
     {
-        public int OrderId {get; set;}
+        public int OrderId { get; set; }
         public int ProductId { get; set; }
         public int OrderNumber { get; set; }
         public decimal Price { get; set; }

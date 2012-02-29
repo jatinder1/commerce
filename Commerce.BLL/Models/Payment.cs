@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Commerce.Web.Models
+namespace Commerce.BLL.Models
 {
     public class Payment
     {
