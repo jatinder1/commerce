@@ -16,8 +16,9 @@ namespace Commerce.BLL.Models
         public decimal Total { get; set; }
         public string Size { get; set; }
         public string Color { get; set; }
-        public string FullFilled { get; set; }
+        public bool FullFilled { get; set; }
         public DateTime ShipDate { get; set; }
+        public int ShiperId { get; set; }
         public int OrderDetailId { get; set; }
         public DateTime BillDate { get; set; }
     }

@@ -19,8 +19,8 @@ namespace Commerce.BLL.Models
         public decimal? SalesTax { get; set; }
         public string TimeStamp { get; set; }
         public string TransactStatus { get; set; }
-        public string FullFill { get; set; }
-        public string Deleted { get; set; }
+        public bool  FullFill { get; set; }
+        public bool  Deleted { get; set; }
         public decimal Paid { get; set; }
         public DateTime PaymentDate { get; set; }
 

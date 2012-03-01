@@ -25,11 +25,11 @@ namespace Commerce.BLL.Models
         public decimal UnitInStock { get; set; }
         public decimal UnitOnOrder { get; set; }
         public string ReOrderLavel { get; set; }
-        public string ProductAvailable { get; set; }
-        public decimal? DiscountAvailable { get; set; }
+        public bool ProductAvailable { get; set; }
+        public bool DiscountAvailable { get; set; }
         public string CurrentOrder { get; set; }
         public string Picture { get; set; }
-        public decimal Ranking { get; set; }
+        public int  Ranking { get; set; }
         public string Note { get; set; }
     }
 }

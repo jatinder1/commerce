@@ -1,0 +1,6 @@
+C:\Git\commerce\Commerce.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Git\commerce\Commerce.BLL\bin\Debug\Commerce.BLL.dll
+C:\Git\commerce\Commerce.BLL\bin\Debug\Commerce.BLL.pdb
+C:\Git\commerce\Commerce.BLL\obj\Debug\Commerce.BLL.dll
+C:\Git\commerce\Commerce.BLL\obj\Debug\Commerce.BLL.pdb
+C:\Git\commerce\Commerce.BLL\bin\Debug\MySql.Data.dll
