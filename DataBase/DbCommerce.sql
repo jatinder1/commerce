@@ -1,0 +1,1 @@
+create table user(Id INT, UserName varchar(50), PasswordHash varchar(250), Salt varchar(250), Name varchar(100))

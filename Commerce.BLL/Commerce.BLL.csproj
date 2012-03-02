@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\SaltedHash.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Customers.cs" />
     <Compile Include="Models\Order.cs" />
