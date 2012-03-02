@@ -32,8 +32,8 @@ namespace Commerce.BLL.Repository
                 user = new Models.User();
                 user.UserName = "super";
                 user.Name = "Ankit";
-                user.PwdSalt = "";
-                user.Password = Helpers.SaltedHash.Create(user.PwdSalt);
+                user.PwdSalt = Helpers.SaltedHash.CreateSalt();
+                user.Password = Helpers.SaltedHash.CalculateHash(user.Password, user.PwdSalt);
                 user.Email="email";
                 
                 
@@ -45,21 +45,6 @@ namespace Commerce.BLL.Repository
             return user;
         }
 
-        private static string CreateSalt(int size)
-        {
-            //Generate a cryptographic random number.
-            RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider();
-            byte[] buff = new byte[size];
-            rng.GetBytes(buff);
-            
-            // Return a Base64 string representation of the random number.
-            return Convert.ToBase64String(buff);
-        }
-        private static string CreatePasswordHash(string pwd, string salt)
-        {
-            string saltAndPwd = String.Concat(pwd, salt);
-            string hashedPwd =FormsAuthentication.HashPasswordForStoringInConfigFile(saltAndPwd, "sha1");
-            return hashedPwd;
-        }
+        
     }
 }
