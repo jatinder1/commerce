@@ -23,7 +23,6 @@ namespace Commerce.BLL.Repository
             }
         }
        
-
         public static Models.User CreateSuperUser()
         {
             Models.User user = GetSuperUser();
@@ -35,16 +34,14 @@ namespace Commerce.BLL.Repository
                 user.PwdSalt = Helpers.SaltedHash.CreateSalt();
                 user.Password = Helpers.SaltedHash.CalculateHash(user.Password, user.PwdSalt);
                 user.Email="email";
-                
-                
+            }
+            else 
                 using (MySqlConnection conn = Connection.Conn())
                 {
                     conn.Insert<Models.User>(user);
                 }
-            }
             return user;
         }
-
         
     }
 }

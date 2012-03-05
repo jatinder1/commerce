@@ -24,7 +24,7 @@ namespace Commerce.Web
             routes.MapRoute(
                 "Default", // Route name
                 "{controller}/{action}/{id}", // URL with parameters
-                new { controller = "Buyer", action = "Index", id = UrlParameter.Optional } // Parameter defaults
+                new { controller = "Super", action = "Index", id = UrlParameter.Optional } // Parameter defaults
             );
 
         }
