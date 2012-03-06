@@ -7,21 +7,22 @@
 </head>
 <body>
     <div class="page">
-        <div id="header">
+       <div id="header">
             <div id="title">
                 <h1>E-Commerce</h1>
             </div>
+
             <div id="logindisplay">
                 @Html.Partial("_LogOnPartial")
             </div>
-            <div style="margin-left:900px"; id="menucontainer" >
-                <ol id="menu">
-                    @Html.ActionLink("Home ", "Index", "Home")
-                    @Html.ActionLink("Caregory ", "About", "Category")
-                    @Html.ActionLink("Store  ", "Index", "Store")
-                    @Html.ActionLink("About us  ", "About", "About us")
-                    @Html.ActionLink("Contact us ", "About", "Contact us")
-                </ol>
+            <div id="menucontainer">
+                <ul id="menu">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Category", "About", "Home")</li>
+                    <li>@Html.ActionLink("Store", "Index", "Student")</li>
+                    <li>@Html.ActionLink("About us", "Index", "Course")</li>
+                    <li>@Html.ActionLink("Contact us", "Index", "Instructor")</li>
+                </ul>
             </div>
         </div>
         <div id="main">

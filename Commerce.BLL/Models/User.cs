@@ -25,9 +25,9 @@ namespace Commerce.BLL.Models
         public string PwdSalt { get; set; }
         
         public string Email { get; set; }
+
+
+        
     }
-
-   
-
 }
      
